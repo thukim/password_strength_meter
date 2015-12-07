@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'password_strength_meter/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "password_strength_meter"
+  spec.name          = "Password Strength Meter"
   spec.version       = PasswordStrengthMeter::VERSION
   spec.authors       = ["Thu Kim"]
   spec.email         = ["kimthu.bui@gmail.com"]
@@ -29,5 +29,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rspec", "~> 3.4.0"
+  spec.add_development_dependency "byebug", "~> 6.0.2"
 end
