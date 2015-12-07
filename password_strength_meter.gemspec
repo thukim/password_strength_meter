@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Thu Kim"]
   spec.email         = ["kimthu.bui@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{This gem determine whether the password is weak, good or strong based on the password score.}
+  spec.description   = %q{This gem determine whether the password is weak, good or strong based on the password score.}
+  spec.homepage      = "https://github.com/thukim/password_strength_meter"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
